@@ -1,6 +1,9 @@
 <?php
+$title = "Success!";
+$content = "
+<p>Thank you for contacting us. We will be in touch with you very soon.</p>
+"; 
 
-include 'template.php';
 if(isset($_POST['email'])) {
 	
  
@@ -135,11 +138,8 @@ $headers = 'From: '.$email_from."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers);  
 
-$title = "Success!";
-$content = "
-<p>Thank you for contacting us. We will be in touch with you very soon.</p>
-"; 
 
+include 'template.php';
 
 ?>
  

@@ -9,7 +9,7 @@ $content = '
 
 <img src="Images/nails/nails2.jpg" class="nails2" />
 <p>
-	We provide full poop.
+	We provide full services for your hands and feet.
 </p>
 
 

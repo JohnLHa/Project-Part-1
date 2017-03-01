@@ -1,0 +1,12 @@
+.productList {
+    width: 500px;
+}
+.product {
+    border-bottom: 1px dashed #aaa;
+}
+.product .name {
+    font-weight: bold;
+}
+.product .price {
+    float: right;
+}
